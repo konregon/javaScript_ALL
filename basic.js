@@ -6,3 +6,6 @@ alert("THis is the alert to Maulik");
 // variables
 var firsrName = "Maulik";
 firstName;
+
+// Combining Strings
+alert(firstName + " is awesome!");
