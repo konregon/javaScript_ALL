@@ -9,3 +9,8 @@ firstName;
 
 // Combining Strings
 alert(firstName + " is awesome!");
+
+// example
+alert(3 +
+    1
+    + 2);
