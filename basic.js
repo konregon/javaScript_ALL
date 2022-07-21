@@ -82,8 +82,8 @@ console.log("run script")
 
 // IF ELSE statement 
 
-var age = 20;
+// var age = 20;
 
-if( age > 18 ) {
-   document.write("<b>Qualifies for driving</b>");
-}
+// if( age > 18 ) {
+//    document.write("<b>Qualifies for driving</b>");
+// }
