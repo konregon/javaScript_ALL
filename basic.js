@@ -87,3 +87,9 @@ console.log("run script")
 // if( age > 18 ) {
 //    document.write("<b>Qualifies for driving</b>");
 // }
+
+// get Name from users and display in popup box
+function go() {
+    var text = document.getElementById("name").value;
+    alert("The user typed '" + text + "'");
+}
