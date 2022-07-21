@@ -43,37 +43,47 @@ console.log("run script")
         // document.write(result);
         // document.write(linebreak);
 
-        // operateors with true/false result
-        var a = 10;
-        var b = 20;
-        var linebreak = "<br />";
+
+
+// operateors with true/false result
+        // var a = 10;
+        // var b = 20;
+        // var linebreak = "<br />";
   
-        document.write("(a == b) => ");
-        result = (a == b);
-        document.write(result);
-        document.write(linebreak);
+        // document.write("(a == b) => ");
+        // result = (a == b);
+        // document.write(result);
+        // document.write(linebreak);
      
-        document.write("(a < b) => ");
-        result = (a < b);
-        document.write(result);
-        document.write(linebreak);
+        // document.write("(a < b) => ");
+        // result = (a < b);
+        // document.write(result);
+        // document.write(linebreak);
      
-        document.write("(a > b) => ");
-        result = (a > b);
-        document.write(result);
-        document.write(linebreak);
+        // document.write("(a > b) => ");
+        // result = (a > b);
+        // document.write(result);
+        // document.write(linebreak);
      
-        document.write("(a != b) => ");
-        result = (a != b);
-        document.write(result);
-        document.write(linebreak);
+        // document.write("(a != b) => ");
+        // result = (a != b);
+        // document.write(result);
+        // document.write(linebreak);
      
-        document.write("(a >= b) => ");
-        result = (a >= b);
-        document.write(result);
-        document.write(linebreak);
+        // document.write("(a >= b) => ");
+        // result = (a >= b);
+        // document.write(result);
+        // document.write(linebreak);
      
-        document.write("(a <= b) => ");
-        result = (a <= b);
-        document.write(result);
-        document.write(linebreak);
+        // document.write("(a <= b) => ");
+        // result = (a <= b);
+        // document.write(result);
+        // document.write(linebreak);
+
+// IF ELSE statement 
+
+var age = 20;
+
+if( age > 18 ) {
+   document.write("<b>Qualifies for driving</b>");
+}
