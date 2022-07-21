@@ -93,3 +93,8 @@ function go() {
     var text = document.getElementById("name").value;
     alert("The user typed '" + text + "'");
 }
+
+function sayHello(name, age)
+         {
+            document.write (name + " is " + age + " years old.");
+         }
