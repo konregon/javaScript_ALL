@@ -160,6 +160,36 @@ function myFunction(a, b) {
 }
 </script>
 
+<p id="demo10"></p>
+
+<script>
+document.getElementById("demo10").innerHTML =
+"The temperature is " + toCelsius(77) + " Celsius";
+
+function toCelsius(fahrenheit) {
+  return (5/9) * (fahrenheit-32);
+} 
+</script>
+
+<h2>JavaScript Objects</h2>
+
+<p id="demo11"></p>
+
+<script>
+// Create an object:
+const person = {
+  firstName: "John",
+  lastName: "Doe",
+  age: 50,
+  eyeColor: "blue"
+};
+
+// Display some data from the object:
+document.getElementById("demo11").innerHTML =
+person.firstName + " is " + person.age + " years old.";
+</script>
+
+
 
 </body>
 </html>
