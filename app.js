@@ -103,3 +103,14 @@ function sample(a1 = 5, a2 = 5){
     return a1 * a2;
 }
 console.log(sample);
+
+
+// 13. Objects
+const person = {
+    firstName: "John",
+    lastName: "Doe",
+    age: 50,
+    eyeColor: "blue"
+  };
+  // Display some data from the object:
+console.log(person);
