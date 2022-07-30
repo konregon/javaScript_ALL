@@ -10,184 +10,24 @@
 </head>
 <body>
 
-    <h2>Display Possibilities</h2>
-    <p id="demo1"></p>
-    <script>
-        document.getElementById("demo1").innerHTML =  10 +20;
-    </script>
-<br>
-    <script>
-        document.write(10+30);
-    </script>
-<br>
-    <!-- <script>
-        window.alert(20+60);
-    </script> -->
-<br>
-    <script>
-        console.log("this is consol.log")
-    </script>
-<br>
-    <button onclick="window.print()"name="button">Print this page</button>
+<h2>5. variables</h2>
+<h4>check result in console</h4>
 <br>
 
-<!-- Statements -->
-<h2>Statements</h2>
- 
-
-
-    <!-- Internal JS -->
-    <script>
-        console.log("Hello word by Internal JS")
-    </script>
-
+<h2>6. let</h2>
+<h3>Variables defined with let cannot be redeclare.
+    <br>
+    Variables declared inside a { } block by let cannot be accessed from outside the block:
+</h3>
+<h4>check result in console</h4>
 <br>
-<h1>JavaScript Variables</h1>
 
-<p>In this example, x, y, and z are variables.</p>
-<p id="demo"></p>
-<script>
-    var x = 5;
-    var y = 6;
-    var z = x + y;
-    document.getElementById("demo").innerHTML =
-    "The value of z is: " + z;
-</script>
-<p>In this example, x, y, and z are variables.</p>
-
-<p id="demo"></p>
-
-<script>
-let x = 5;
-let y = 6;
-let z = x + y;
-document.getElementById("demo").innerHTML =
-"The value of z is: " + z;
-</script>
-
-<h2>JavaScript const</h2>
-
-<p id="demo2"></p>
-
-<script>
-try {
-  const PI = 3.141592653589793;
-  PI = 3.14;
-}
-catch (err) {
-  document.getElementById("demo2").innerHTML = err;
-}
-</script>
-
-<h2>JavaScript Operators</h2>
-
-<p>x = 5, y = 2, calculate z = x + y, and display z:</p>
-
-<p id="demo3"></p>
-
-<script>
-let x = 5;
-let y = 2;
-let z = x + y;
-document.getElementById("demo3").innerHTML = z;
-</script>
-
-<h2>JavaScript Arithmetic</h2>
-<p>A typical arithmetic operation takes two numbers (or expressions) and produces a new number.</p>
-
-<p id="demo4"></p>
-
-<script>
-let a = 3;
-let x = (100 + 50) * a;
-document.getElementById("demo4").innerHTML = x;
-</script>
-
-<h2>JavaScript Assignments</h2>
-<h3>The += Operator</h3>
-
-<p id="demo5"></p>
-
-<script>
-let x = 10;
-x += 5;
-document.getElementById("demo5").innerHTML = x;
-</script>
-
-<h2>JavaScript Assignments</h2>
-<h3>The += Operator</h3>
-
-<p id="demo6"></p>
-
-<script>
-let x = 10;
-x += 5;
-document.getElementById("demo6").innerHTML = x;
-</script>
-
-<p>JavaScript evaluates expressions from left to right. Different sequences can produce different results:</p>
-
-<p id="demo7"></p>
-
-<script>
-let x = "Volvo" + 16 + 4;
-document.getElementById("demo7").innerHTML = x;
-</script>
-
-<h2>JavaScript Functions</h2>
-
-<p>This example calls a function which performs a calculation, and returns the result:</p>
-
-<p id="demo8"></p>
-
-<script>
-function myFunction(p1, p2) {
-  return p1 * p2;
-}
-document.getElementById("demo8").innerHTML = myFunction(4, 3);
-</script>
-
-<p>This example calls a function which performs a calculation and returns the result:</p>
-
-<p id="demo9"></p>
-
-<script>
-var x = myFunction(5, 3);
-document.getElementById("demo9").innerHTML = x;
-
-function myFunction(a, b) {
-  return a * b;
-}
-</script>
-
-<p id="demo10"></p>
-
-<script>
-document.getElementById("demo10").innerHTML =
-"The temperature is " + toCelsius(77) + " Celsius";
-
-function toCelsius(fahrenheit) {
-  return (5/9) * (fahrenheit-32);
-} 
-</script>
-
-<h2>JavaScript Objects</h2>
-
-<p id="demo11"></p>
-
-<script>
-// Create an object:
-const person = {
-  firstName: "John",
-  lastName: "Doe",
-  age: 50,
-  eyeColor: "blue"
-};
-
-// Display some data from the object:
-document.getElementById("demo11").innerHTML =
-person.firstName + " is " + person.age + " years old.";
-</script>
+<h2>7. const</h2>
+<h3>A const variable cannot be reassigned:
+    <br>
+    JavaScript const variables must be assigned a value when they are declared:
+</h3>
+<h4>check result in console</h4>
 
 
 

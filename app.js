@@ -16,3 +16,45 @@ console.log("Hello world by using External means")
 // JavaScript statements are composed of:
 // Values, Operators, Expressions, Keywords, and Comments.
 // This statement tells the browser to write "Hello Dolly." inside an HTML element with id="demo":
+
+// 5. variables
+var x = 51;
+var y = 65;
+var z = 351;
+var a = x+y+z;
+console.log(a);
+
+// 6. let
+// Variables defined with let cannot be redeclared.
+let carName = "swift";
+var numberPlate = 4587;
+console.log(carName);
+console.log(numberPlate);
+{
+    var numberPlate = 9875;
+    let carName = "wegon";
+}
+console.log(numberPlate);
+console.log(carName);
+
+// 7. const
+// A const variable cannot be reassigned:
+// JavaScript const variables must be assigned a value when they are declared:
+// You can create a constant array:
+const cars = ["Saab", "Volvo", "BMW"];
+console.log(cars);
+// You can change an element:
+cars[0] = "Toyota";
+
+// You can add an element:
+cars.push("Audi");
+console.log(cars);
+
+// cars = ["Toyota", "Volvo", "Audi"];    // ERROR
+
+
+// 8. operators
+var x = 5;         // assign the value 5 to x
+var y = 2;         // assign the value 2 to y
+var z = x + y;
+console.log(z);
