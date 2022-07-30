@@ -58,3 +58,38 @@ var x = 5;         // assign the value 5 to x
 var y = 2;         // assign the value 2 to y
 var z = x + y;
 console.log(z);
+var z = x * y;
+console.log(z);
+z = x / y;
+console.log(z);
+
+
+// 9. Arithmetic
+// +	Addition
+// -	Subtraction
+// *	Multiplication
+// **	Exponentiation (ES2016)
+// /	Division
+// %	Modulus (Remainder)
+// ++	Increment
+// --	Decrement
+
+
+// 10. Assignment
+// +=	Addition
+// -=	Subtraction
+// *=	Multiplication
+// **=	Exponentiation (ES2016)
+// /=	Division
+// %=	Modulus (Remainder)
+// ++=	Increment
+// --=	Decrement
+z += 45;
+
+// 11. data types
+let length1 = 16;                               // Number
+let lastName1 = "Johnson";                      // String
+let x1 = {firstName:"John", lastName:"Doe"};    // Object
+console.log(length1);
+console.log(lastName1);
+console.log(x1);
