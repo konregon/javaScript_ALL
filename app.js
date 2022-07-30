@@ -93,3 +93,13 @@ let x1 = {firstName:"John", lastName:"Doe"};    // Object
 console.log(length1);
 console.log(lastName1);
 console.log(x1);
+
+
+// 12. Functions
+// function name(parameter1, parameter2, parameter3) {
+//     // code to be executed
+//   }
+function sample(a1 = 5, a2 = 5){
+    return a1 * a2;
+}
+console.log(sample);
