@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+    <title>Variables</title>
+  </head>
+  <body>
+    <!-- Numbers -->
+    <h2>Numbers</h2>
+    <script>
+      const myInt = "45";
+      const myFloat = 45.54664;
+
+      // Fix to certain decimal place
+      const lotsOfDecimal = 12.6546516541651;
+      const threeDecimalPlaces = lotsOfDecimal.toFixed(3);
+
+      // convert string number value into proper number formate by Number() constructor
+      let myNumber = "74";
+      myNumber = Number(myNumber) + 3;
+      // if we goes to change the myInt, It will not change because it is CONST not a let type.
+
+      // arithmetic operations
+      const num1 = 10;
+      const num2 = 50;
+      9 * num1;
+      num1 ** 3;
+      num2 / num1;
+    </script>
+
+    <!-- Example -->
+    <button>Start machine</button>
+    <p>The machine is stopped.</p>
+    <script>
+      const btn = document.querySelector("button");
+      const txt = document.querySelector("p");
+
+      btn.addEventListener("click", updateBtn);
+
+      function updateBtn() {
+        if (btn.textContent === "Start machine") {
+          btn.textContent = "Stop machine";
+          txt.textContent = "The machine has started!";
+        } else {
+          btn.textContent = "Start machine";
+          txt.textContent = "The machine is stopped.";
+        }
+      }
+    </script>
+
+    <!-- Test -->
+    <script>
+      let number1 = 4;
+      let number2 = 8;
+      let number3 = 12;
+      let number4 = 3;
+
+      let sum1 = number1 + number2;
+
+      let sub1 = number3 - number4;
+
+      let mul1 = sum1 * sub1;
+
+      let result1 = mul1 % 2 === 0;
+    </script>
+  </body>
+</html>
